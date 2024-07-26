@@ -1,0 +1,44 @@
+.top-banner{
+    height: auto;
+    width: auto;
+}
+.top-banner .right-side :nth-child(1){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.top-banner .right-side :nth-child(2){
+    display: none;
+}
+.shopping img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shopping .body-care{
+    padding-top: 10%;
+}
+
+.banner-2{
+    height: auto;
+}
+.product-list .card-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numbers .num-row{
+    gap: 30px;
+}
+.about{
+    height: auto;
+}
+
+.menubar .logo{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
