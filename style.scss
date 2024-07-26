@@ -5,32 +5,37 @@
 // #2F2F2F
 // #BFD8BD
 
-.menubar{
+.menubar {
     font-family: "Mada", sans-serif;
-    .social{
+
+    .social {
         background-color: #BFD8BD;
         color: #2F2F2F;
         border: none;
-        
+
     }
 }
-.top-banner{
-    background-image: linear-gradient(to bottom , #ffffff ,#BFD8BD );
+
+.top-banner {
+    background-image: linear-gradient(to bottom, #ffffff, #BFD8BD);
     height: 730px;
 
-    .heading{
+    .heading {
         font-family: "Inria Serif", serif;
         font-weight: 600;
     }
-    p{
+
+    p {
         font-family: "Mada", sans-serif;
         font-weight: 400;
         font-size: 1.5rem;
     }
-    .right-side{
+
+    .right-side {
         position: relative;
     }
-    .right-side :nth-child(2){
+
+    .right-side :nth-child(2) {
         position: absolute;
         top: 100%;
         left: 100%;
@@ -38,77 +43,90 @@
     }
 }
 
-    .data{
+.data {
     font-family: "Inria Serif", serif;
     font-weight: 400;
-    }
-    
+}
 
-.about{
+
+.about {
     background-color: #2F2F2F;
     height: 300px;
-    
-    p{
+
+    p {
         font-family: "Mada", sans-serif;
         font-weight: 400;
         font-size: 1rem;
     }
 }
-.shopping{
-    p{
+
+.shopping {
+    p {
         font-family: "Mada", sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
     }
-    button{
+
+    button {
         font-weight: 600;
         font-family: "Mada", sans-serif;
     }
-    .cosmetics{
+
+    .cosmetics {
         padding-top: 10%;
     }
 }
-.banner-2{
-    background-image: linear-gradient(to bottom ,#ffffff8b , #ca907e82) , url(img/banner3.png);
+
+.banner-2 {
+    background-image: linear-gradient(to bottom, #ffffff8b, #ca907e82), url(img/banner3.png);
     background-attachment: fixed;
-    
+
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    .offer-section{
+
+    .offer-section {
         backdrop-filter: blur(10px);
-        padding: 70px  10px;
-        p{
+        padding: 70px 10px;
+
+        p {
             font-family: "Mada", sans-serif;
             font-weight: 500;
             font-size: 1.5rem;
         }
     }
 }
-.product-list{
+
+.product-list {
     background-color: #BFD8BD;
-    p{
+
+    p {
         font-family: "Mada", sans-serif;
         font-weight: 500;
         font-size: 1.5rem;
     }
 }
-.testimonials{
-    p{
+
+.testimonials {
+    p {
         font-family: "Mada", sans-serif;
         font-weight: 600;
         font-size: 1.2rem;
     }
-    h5{
+
+    h5 {
         font-family: "Mada", sans-serif;
-        font-weight: 800; 
+        font-weight: 800;
         font-size: 2rem;
     }
 }
+
 .footer {
     background-color: #2F2F2F;
-    h5{
+
+    h5 {
         font-family: "Mada", sans-serif;
-        font-weight: 400; }
+        font-weight: 400;
+    }
 }
